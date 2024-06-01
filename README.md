@@ -1,8 +1,11 @@
-# Deployment Status Monitoring Script Documentation
+# CLI script to automate operations on a bare Kubernetes Cluster.
+
 
 ## Introduction
 
 This script is designed to automate the deployment of Kubernetes resources and monitor the status of a specified deployment until it becomes healthy. It utilizes `kubectl` for managing Kubernetes resources and `whiptail` for creating a simple text-based dashboard to display the deployment status.
+
+![Screenshot of Dashboard](dashboard.png)
 
 ## Script Components
 
@@ -63,3 +66,7 @@ The script consists of two main parts:
 ## Dependencies
 
 - Requires `kubectl`, `jq`, and `whiptail` to be installed on the system.
+
+## Execution
+
+![Screenshot of execution](execution.png)
